@@ -6,11 +6,17 @@
 
 > QQ : [3341386488](3341386488)
 
-> QQ群 :
+> QQ群1(秒杀架构一群) :
 
 ![整体流程](https://raw.githubusercontent.com/qiurunze123/imageall/master/qq.png)
 
+> QQ群2(秒杀架构二群) :
 
+![整体流程](https://raw.githubusercontent.com/qiurunze123/imageall/master/miaosha22.png)
+
+> QQ群3(多线程交流群 三高系统 -- 并发框架) :
+
+![整体流程](https://raw.githubusercontent.com/qiurunze123/imageall/master/高并发.png)
 
 [![Travis](https://img.shields.io/badge/language-Java-yellow.svg)](https://github.com/qiurunze123)
 高并发大流量如何进行秒杀架构，我对这部分知识做了一个系统的整理，写了一套系统。本GitHub还有许多其他的知识，随时欢迎探讨与骚扰！本文还在更新如果文章出现瑕疵请及时与我联系！
@@ -20,9 +26,9 @@
 一点小建议：学习本系列知识之前，如果你完全没接触过 `MQ`、`SpringBoot`、`Redis`、`Dubbo`、`ZK` 、`Maven`,`lua`等，那么我建议你可以先在网上搜一下每一块知识的快速入门，
 也可以下载本项目边做边学习，我的项目完全是实战加讲解不想写一堆的文章，浪费我们的生命，你还不懂内层含义，想要明白就边实际操作边学习，效果会更好！加油💪💪
 
-### 最近正在进行dubbo+zk 登录与下单等 设计方式 + 业务逻辑 全面修改 有可能会出现下载后启动错误 最初版本请下载 (https://pan.baidu.com/s/1sld8RBSvLe2q4gc-Z-fVAQ)
+### 最初版本请下载 (https://pan.baidu.com/s/1sld8RBSvLe2q4gc-Z-fVAQ)
 ### 如果想先看dubbo + zk 了解请下载we-miaosha ，miaosha-order  为项目分离示例项目！会不断完善！此版本为springboot2.0+ 请使JDK1.8+
-### 秒杀高并发架构 -- 架构图 
+### start 维护 开始搭建 
 
 > 软件环境 : 请选择稳定版 
 
@@ -40,9 +46,7 @@
 
 >2.本sql只是进行模拟，现实情况比这个信息要复杂的多，你可以把它看作是一个简化版本的sql
 
->3.详情请看miaosha.sql
-
->4.访问地址 http://localhost:8080/login/to_login
+>3.访问地址 http://localhost:8080/login/to_login
 
 ###  以下所有内容都已完成，但是因内容多需逐渐整理上传！ 专题的部分也会尽快上传更新！ 立个flag 半年内吧争取全部更新完！各位稍安勿躁！ 
 
@@ -83,6 +87,7 @@
 | 029 |dubbo客户端 dubbo-admin管理平台 搭建安装|[解决思路](/docs/dubbo-admin.md)   |
 | 030 |如何利用dubbo 的mock 来进行服务降级本地伪装 ?? (有更好的方式进群@我)|[解决思路](/docs/dubbo-zk.md)   |
 | 031 |*** 如何利用lua + redis  取代 nigix + lua 脚本进行分布式限流 (请看miaosha-2version) ？ *** |[解决思路](/docs/redis-good.md)   |
+| 032 |多数据源配置 如何进行多数据源配置 |[解决思路](/docs/code-solve.md)   |
 
 
 #### [分布式系统发展历程（已更新）](/docs/fenbushi.md)
@@ -91,7 +96,7 @@
 #### [redis 使用与进阶以及如何进行集群--已更新](/docs/redis-good.md)
 #### [spring源码--未更新](/docs/redis-code.md)
 #### [分布式治理框架-dubbo - zk - 解析--更新中](/docs/dubbo-zk.md)
-#### [通信mq-Kafka--未更新](/docs/redis-code.md)
+#### [多线程分析以及三高多线程demo系统  ](https://github.com/qiurunze123/threadandjuc)
 #### [微服务框架--未更新](/docs/redis-code.md)
 -------------------------------------------------|
 #### [mysql数据库优化及架构学习](/docs/mysql.md)
